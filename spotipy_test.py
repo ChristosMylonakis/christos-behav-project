@@ -52,8 +52,8 @@ charts = charts[(charts['Date'] >= start_date) & (charts['Date'] <= end_date)]
 #-------------------------------------
 
 # Set up authentication
-client_id = 'a3533644b5b04e63a0dfd594a4d12e8b'
-client_secret = '8249bc7983224aaa870b9b08764dd13b'
+client_id = 'your-id'
+client_secret = 'your-secret'
 client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
