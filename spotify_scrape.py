@@ -21,7 +21,7 @@ username_box = driver.find_element("xpath", '//*[(@id = "login-username")]')
 username_box .send_keys('mylonakisc@gmail.com')
 
 password_box = driver.find_element("xpath", '//*[(@id = "login-password")]')
-password_box.send_keys('mylonakis4112000')
+password_box.send_keys('your-password')
 
 login_button = driver.find_element("xpath", '//*[contains(concat( " ", @class, " " ), concat( " ", "encore-bright-accent-set", " " ))]')
 login_button.click()
