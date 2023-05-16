@@ -18,7 +18,7 @@ driver.get(url_account_login)
 
 
 username_box = driver.find_element("xpath", '//*[(@id = "login-username")]')
-username_box .send_keys('mylonakisc@gmail.com')
+username_box .send_keys('your-email')
 
 password_box = driver.find_element("xpath", '//*[(@id = "login-password")]')
 password_box.send_keys('your-password')
